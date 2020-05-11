@@ -1,0 +1,26 @@
+.card{
+    text-align:center; 
+   
+}
+.card__item{  
+    padding:20px 10px;
+    border:1px dashed #ccc;
+    display: flex;
+    img{
+        width:70px;
+    }     
+}
+.card__text{ 
+    h1{
+        margin:5px 5px;
+        font-size: 20px;
+    }
+    h2{
+        margin:0px 10px 5px 10px;
+        font-size: 16px;
+    }
+    small{
+        display: block; 
+        font-size: 14px;
+    }
+}
