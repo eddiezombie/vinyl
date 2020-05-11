@@ -1,0 +1,19 @@
+.listen{
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height:100vh;
+}
+.listen__text{ 
+    h1{
+        margin:10px;
+    }
+    h2{
+        margin:10px 10px 20px 10px;
+    }
+    small{
+        display: block; 
+        font-size: 16px;
+    }
+}
