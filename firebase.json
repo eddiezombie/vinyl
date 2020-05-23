@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "vinyl",
+      "public": "dist/vinyl",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

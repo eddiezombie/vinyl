@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "vinyl-3352a": {
+      "hosting": {
+        "vinyl": [
+          "vinyl-3352a"
+        ]
+      }
+    }
+  }
+}
