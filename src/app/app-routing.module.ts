@@ -6,6 +6,7 @@ import { CardComponent } from './components/card/card.component';
 import { ListComponent } from './components/list/list.component';
 import { SingleComponent } from './components/single/single.component';
 import { AddComponent } from './components/add/add.component';
+import { EditComponent } from './components/edit/edit.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'list', component: ListComponent },
   { path: 'single', component: SingleComponent },
   { path: 'add', component: AddComponent },
+  { path: 'edit/*', component: EditComponent },
 ];
 
 @NgModule({

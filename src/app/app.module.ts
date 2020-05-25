@@ -20,6 +20,7 @@ import { CardComponent } from './components/card/card.component';
 import { ListComponent } from './components/list/list.component';
 import { SingleComponent } from './components/single/single.component';
 import { AddComponent } from './components/add/add.component';
+import { EditComponent } from './components/edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { AddComponent } from './components/add/add.component';
     CardComponent,
     ListComponent,
     SingleComponent,
-    AddComponent
+    AddComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
