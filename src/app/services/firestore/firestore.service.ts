@@ -24,4 +24,15 @@ export class FirestoreService {
   public updateCat(documentId: string, data: any) {
     return this.firestore.collection('vinyl').doc(documentId).set(data);
   }
+
+  //Obtiene vinilos
+  public getVinyls() {
+    return this.firestore.collection('vinyl').valueChanges(); 
+  }
+
+  //filter
+  filterBy(name: string) {
+    return this.firestore.collection('vinyl', ref => ref.where('name','==', name )).valueChanges()
+  };
+
 }

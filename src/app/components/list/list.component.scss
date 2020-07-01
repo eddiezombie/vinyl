@@ -11,8 +11,9 @@
     }     
 }
 .card__text{ 
+    text-align: left;
     h1{
-        margin:5px 5px;
+        margin:5px 5px 5px 10px;
         font-size: 20px;
     }
     h2{
@@ -22,5 +23,29 @@
     small{
         display: block; 
         font-size: 14px;
+        padding-left: 10px;
+    }
+}
+
+form{
+    box-sizing:border-box;
+    width:100%; 
+
+    mat-form-field{
+        background:#ccc;
+        padding:10px 10px 0 10px;
+        box-sizing:border-box;
+        width:100%; 
+    }
+
+    h1{
+        color:#b4b4b4;
+    }
+
+    .mat-form-field{
+        width:100%;
+    }
+    input{
+        color:#b4b4b4;
     }
 }
